@@ -1,5 +1,6 @@
 .wrapper {
     height: 100%;
     display: grid;
+    background: var(--primary-color);
     grid-template-columns: auto 400px;
 }
