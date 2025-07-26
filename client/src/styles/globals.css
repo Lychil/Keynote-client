@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+
+  font: inherit;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  font-size: var(--fz-base);
+  font-weight: 400;
+  color: var(--primary-color);
+
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  max-height: 100vh;
+}
