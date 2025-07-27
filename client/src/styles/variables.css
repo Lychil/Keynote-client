@@ -3,6 +3,11 @@
     --fz-base: 16px;
     --fz-lg: 20px;
     --fz-xl: 24px;
+    --fz-xxl: 28px;
+
+    --border-r-sm: 4px;
 
     --primary-color: #03060a;
+    --secondary-color: #a0a0a0;
+    --error-color: #f44336;
 }

@@ -4,3 +4,10 @@
     background: var(--primary-color);
     grid-template-columns: auto 400px;
 }
+
+.main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

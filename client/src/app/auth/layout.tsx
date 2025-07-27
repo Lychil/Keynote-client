@@ -6,7 +6,9 @@ export default function layout(
 ) {
     return (
         <div className={styles.wrapper}>
-            {children}
+            <main className={styles.main}>
+                {children}
+            </main>
             {sidebar}
         </div>
     )

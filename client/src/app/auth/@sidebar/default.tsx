@@ -4,7 +4,7 @@ export default function Default() {
     return (
         <aside className={styles.wrapper}>
             <div className={styles.logoWrapper}>
-                <img className={styles.logoImg} src="/icons/logo-light.svg" alt="Логотип(светлая тема) Keynote" />
+                <img className={styles.logoImg} src="/icons/logo-icon-light.svg" alt="Логотип(светлая тема) Keynote" />
                 <div className={styles.logoText}>Keynote</div>
             </div>
         </aside>
