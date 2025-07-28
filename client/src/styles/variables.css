@@ -3,6 +3,12 @@
     --fz-base: 16px;
     --fz-lg: 20px;
     --fz-xl: 24px;
+    --fz-xxl: 28px;
 
-    --primary-color: #0D141C;
+    --border-r-sm: 4px;
+    --border-r-md: 8px;
+
+    --primary-color: #03060a;
+    --secondary-color: #a0a0a0;
+    --error-color: #f44336;
 }

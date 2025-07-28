@@ -1,0 +1,14 @@
+.wrapper {
+    height: 100%;
+    display: grid;
+    background: var(--primary-color);
+    grid-template-columns: auto 400px;
+}
+
+.main {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

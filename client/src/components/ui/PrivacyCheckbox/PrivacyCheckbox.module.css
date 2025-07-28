@@ -1,0 +1,51 @@
+.wrapper {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.hiddenCheckbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.customCheckbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background: transparent;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.customCheckbox::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.hiddenCheckbox:checked+.customCheckbox::after {
+    opacity: 1;
+}

@@ -1,0 +1,29 @@
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px;
+    z-index: 10;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.button {
+    color: white;
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: var(--border-r-md);
+    font-weight: 500;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}

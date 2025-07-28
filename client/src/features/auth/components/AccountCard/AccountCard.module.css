@@ -1,0 +1,21 @@
+.card {
+    padding: 16px 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+    font-weight: 500;
+    color: white;
+}
+
+.card:hover {
+    border-color: white;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.active {
+    border-color: white;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
