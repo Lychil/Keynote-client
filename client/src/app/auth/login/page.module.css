@@ -1,0 +1,71 @@
+.page {
+    width: 100%;
+    max-width: 500px;
+}
+
+.wrapper {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: var(--fz-xxl);
+    font-weight: 600;
+    margin-bottom: 24px;
+    letter-spacing: -0.5px;
+}
+
+.accountList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.loginBtn {
+    width: 100%;
+    padding: 14px 0;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.loginBtn:hover:not(:disabled) {
+    background: #f5f5f5;
+    transform: scale(1.02);
+}
+
+.loginBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--fz-sm);
+    color: var(--secondary-color);
+}
+
+.links a {
+    position: relative;
+}
+
+.links a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: var(--secondary-color);
+    transform: scaleX(0);
+    transition: transform 0.2s ease;
+    transform-origin: left;
+}
+
+.links a:hover::after {
+    transform: scaleX(1);
+}
