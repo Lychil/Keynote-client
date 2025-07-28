@@ -36,8 +36,8 @@ export default function AccountLoginClient() {
             </button>
 
             <div className={styles.links}>
-                <a href="/register">Регистрация</a>
-                <a href="/recover">Вход по seed-фразе</a>
+                <a href="/auth/register">Регистрация</a>
+                <a href="/auth/recover">Вход по seed-фразе</a>
             </div>
         </div>
     );
